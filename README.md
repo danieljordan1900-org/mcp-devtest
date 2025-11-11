@@ -59,16 +59,17 @@ npm start        # Ejecutar servidor compilado
 
 Este repositorio es un sandbox para experimentar con las capacidades de MCP antes de implementarlas en proyectos de producción.
 
-No olvide configurar el .vscode:
-
+No olvide configurar el .vscode en cada proyecto "@ubicacion_directorio/test-typescript/.vscode":
+```bash
 {
   "servers": {
     "friends-server": {
       "command": "node",
-      "args": ["D:\\MCP\\Server\\test-typescript\\dist\\index.js"]
+      "args": ["@ubicacion_directorio\\test-typescript\\dist\\index.js"]
     }
   }
 }
+```
 
 ## 📄 Licencia
 
